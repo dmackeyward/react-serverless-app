@@ -1,6 +1,6 @@
 # React Serverless Application
 
-This serverless React application allows users to geenrate 3 random sports and either requests for 3 new sports, re-order the existing sports throughout page reloads, and to remove a single sport
+This AWS Serverless React application allows users to register and logic, submit data to a serverless backend, and compare their data to other anonymous users
 
 Following along with Maximilian Schwarzmüller's Udemy tutorial found [here](https://www.udemy.com/course/net-core-31-web-api-entity-framework-core-jumpstart/)
 
