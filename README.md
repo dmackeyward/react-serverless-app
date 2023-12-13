@@ -6,21 +6,21 @@ Following along with Maximilian Schwarzmüller's Udemy tutorial found [here](htt
 
 # Features:
 
--Serverless architecture - AWS's API gateway, Lambda functions, DynamoDB
--Hosted on S3 and Cloudfront CDN
--Implemented using AWS Amplify
--A simple and clean frontend with authentication, GET, POST, and DELETE requests
--Custom React hooks for handling form logic and http requests
--React useContext for managing authentication state
+- Serverless architecture - AWS's API gateway, Lambda functions, DynamoDB
+- Hosted on S3 and Cloudfront CDN
+- Implemented using AWS Amplify
+- A simple and clean frontend with authentication, GET, POST, and DELETE requests
+- Custom React hooks for handling form logic and http requests
+- React useContext for managing authentication state
 
 You can find this website temporarily hosted [here](da4402drebb7x.cloudfront.net)
 
 # What I learnt
 
--Breaking down a typical monolithic application and understanding the role and importance of each element
--CORS headers and token management
--Data configuration and management through the API gateway request and responses
--AWS SDK and Amplify experience
+- Breaking down a typical monolithic application and understanding the role and importance of each element
+- CORS headers and token management
+- Data configuration and management through the API gateway request and responses
+- AWS SDK and Amplify experience
 
 # Screnshots 
 
