@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /build
+/amplify
 
 # testing
 /coverage

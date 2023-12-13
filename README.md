@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# React Serverless Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This serverless React application allows users to geenrate 3 random sports and either requests for 3 new sports, re-order the existing sports throughout page reloads, and to remove a single sport
 
-## Available Scripts
+Following along with Maximilian Schwarzmüller's Udemy tutorial found [here](https://www.udemy.com/course/net-core-31-web-api-entity-framework-core-jumpstart/)
 
-In the project directory, you can run:
+# Features:
 
-### `npm start`
+-Serverless architecture - AWS's API gateway, Lambda functions, DynamoDB
+-Hosted on S3 and Cloudfront CDN
+-Implemented using AWS Amplify
+-A simple and clean frontend with authentication, GET, POST, and DELETE requests
+-Custom React hooks for handling form logic and http requests
+-React useContext for managing authentication state
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can find this website temporarily hosted [here](da4402drebb7x.cloudfront.net)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# What I learnt
 
-### `npm test`
+-Breaking down a typical monolithic application and understanding the role and importance of each element
+-CORS headers and token management
+-Data configuration and management through the API gateway request and responses
+-AWS SDK and Amplify experience
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Screnshots 
 
-### `npm run build`
+![alt text](https://github.com/dmackeyward/react-serverless-app/blob/dev/screenshots/0.jpg?raw=true)
+![alt text](https://github.com/dmackeyward/react-serverless-app/blob/dev/screenshots/1.jpg?raw=true)
+![alt text](https://github.com/dmackeyward/react-serverless-app/blob/dev/screenshots/2.jpg?raw=true)
+![alt text](https://github.com/dmackeyward/react-serverless-app/blob/dev/screenshots/3.jpg?raw=true)
+![alt text](https://github.com/dmackeyward/react-serverless-app/blob/dev/screenshots/4.jpg?raw=true)
+![alt text](https://github.com/dmackeyward/react-serverless-app/blob/dev/screenshots/5.jpg?raw=true)
+![alt text](https://github.com/dmackeyward/react-serverless-app/blob/dev/screenshots/6.jpg?raw=true)
+![alt text](https://github.com/dmackeyward/react-serverless-app/blob/dev/screenshots/7.jpg?raw=true)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
