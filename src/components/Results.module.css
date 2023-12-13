@@ -1,0 +1,80 @@
+/* Compare.module.css */
+.resultsContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .secondTitle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .results {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .span {
+    padding: 5px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: space-evenly; /* Adjust as needed (space-around, space-evenly, etc.) */
+  }
+  
+  .viewOthersButton {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .deleteButton {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: rgba(126, 23, 23, 0.74);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .viewOthersButton:hover {
+    color: #ffcc00;
+  }
+
+  .deleteButton:hover {
+    color: black;
+  }
+  
+  .ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .li {
+    padding: 5px;
+  }
+
+
+  

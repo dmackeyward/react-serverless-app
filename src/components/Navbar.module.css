@@ -1,0 +1,55 @@
+/* Navbar container */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden; /* Clear floats */
+  }
+  
+  /* Navbar brand (logo or brand name) */
+  .navbar__brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    float: left; /* Align brand/logo to the left */
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Navbar list */
+  .navbar__list {
+    list-style: none;
+    float: right; /* Align list to the right */
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Navbar item */
+  .navbar__item {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 15px;
+  }
+  
+  /* Navbar link */
+  .navbar__link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+
+  .navbar__brand:hover {
+    color: #ffcc00;
+  }
+  
+  .navbar__link:hover {
+    color: #ffcc00;
+  }
+  
+  /* Active link */
+  .active {
+    color: #ffcc00; /* Change active link color */
+  }
+  
